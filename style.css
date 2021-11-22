@@ -18,9 +18,14 @@
 }
 H1{
     color:lightseagreen;
+    font-size: calc(100% + 1vw + 1vh);
     
 }
 
 .bsc-style{
     background-color: white;
 }
+
+.text-responsive {
+    font-size: calc(100% + 1vw + 1vh);
+  }
