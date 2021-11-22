@@ -1,0 +1,21 @@
+SUMMARY
+--------------------
+The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+
+After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed and humidity. This site provides the source data and visualizations creaed as part of the analysis, as well as explainations and descriptions of any trends and correlation witnessed.
+--------------------
+Vs Temperature
+--------------------
+This plot indicates that there is a correlation between the temperature and latitude of a city. It is showing that the the temperature is the highest as latitude approaches 0deg and as it veers away from 0deg latitude the temperature then starts to drop. It appears that a polynomial trend line can bne used to adequately describe this relationship.
+--------------------
+Vs Humidity
+--------------------
+It does not look like that there is any particularly strong correlation between latitude and humidity. The only observable trait is that as latitude tends towards the 80deg the humidity is grouped more closely together on the higher end of the spectrum. A possible hypothesis might be the presence of ice and snow covering the majority of the land surfaces.
+--------------------
+Vs Cloudiness
+--------------------
+There is no observable correlation between cloudiness and latitude. 
+--------------------
+Vs Wind Speed
+--------------------
+There is no observable correlation between wind speed and latitude. The other take away unrelated to wind speed is that there seems to be more dots/datapoints on the positive latitude. This migth indicate the higher density of available cities in the Northen Hemispehere when conpared to the Southern Hemisphere.
