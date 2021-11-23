@@ -3,78 +3,63 @@
 
 <head>
     <meta charset="UTF-8">
-    <title> Latitude </title>
+    <title> Latitude: Data </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-<nav class="navbar navbar-expand-lg m-0">
-  <div class="container-fluid">
-    <a class="navbar-brand bg-turq p-2" href="https://waltontan.github.io/Web-Design-Challenge/">Latitude</a>
-    <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse navbar-light" id="navbarNavDropdown" style="justify-content: flex-end;">
-      <ul class="navbar-nav ">
+<body class="p-0 bodycol" style="padding: 20px;">
+    <nav class="navbar navbar-expand-lg p-0">
+        <div class="container-fluid nav-bar-bg p-0">
+                    <a class="navbar-brand bg-turq p-3 text-center " href="https://waltontan.github.io/Web-Design-Challenge/">Latitude</a>
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Plots
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="https://waltontan.github.io/Web-Design-Challenge/latvstemp">Temperature</a></li>
-            <li><a class="dropdown-item" href="https://waltontan.github.io/Web-Design-Challenge/latvshum">Humidity</a></li>
-            <li><a class="dropdown-item" href="https://waltontan.github.io/Web-Design-Challenge/latvscloud">Cloudiness</a></li>
-            <li><a class="dropdown-item" href="https://waltontan.github.io/Web-Design-Challenge/latvswindspeed">Wind Speed</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="https://waltontan.github.io/Web-Design-Challenge/comparison">Comparison</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="https://waltontan.github.io/Web-Design-Challenge/data">Data</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<section style="background-color: lightgrey;padding: 20px;">
+                    <button class="navbar-toggler navbar-light mx-3 px-2" style = "border-color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                <div class="collapse navbar-collapse navbar-light px-3" id="navbarNavDropdown" style="justify-content: flex-end; background-color: white;">
+                    <ul class="navbar-nav">
+    
+                        <li class="nav-item dropdown" >
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Plots
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="https://waltontan.github.io/Web-Design-Challenge/latvstemp">Temperature</a></li>
+                            <li><a class="dropdown-item" href="https://waltontan.github.io/Web-Design-Challenge/latvshum">Humidity</a></li>
+                            <li><a class="dropdown-item" href="https://waltontan.github.io/Web-Design-Challenge/latvscloud">Cloudiness</a></li>
+                            <li><a class="dropdown-item" href="https://waltontan.github.io/Web-Design-Challenge/latvswindspeed">Wind Speed</a></li>
+                        </ul>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://waltontan.github.io/Web-Design-Challenge/comparison">Comparison</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://waltontan.github.io/Web-Design-Challenge/data">Data</a>
+                        </li>
+    
+                    </ul>
+                </div>
+      </div>
+    </nav>
+
+<section>
     <div class="container">
         <div class = "row">
-            <div class="col-lg-8 bg-light m-3">
-                <div>
-                    <h1> DATA</h1>
-                </div>
-                <div style="float: left;">
-                <img src="https://github.com/Waltontan/Web-Design-Challenge/blob/main/Resources/lvt.png?raw=true" alt="Latitude vs temperature" class="d-inline-block align-text-top img-fluid">
-                </div>
-                <p>
-                    The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-                    <br> <br>
-                    After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed and humidity. This site provides the source data and visualizations creaed as part of the analysis, as well as explainations and descriptions of any trends and correlation witnessed.
-                </p>
-            </div>
-            <!-- <div class="col-1">
-
-            </div> -->
-            <div class="col-lg-3 bg-light m-3">
-                <H1>Visualizations</H1>
-                <div class="row">
-                    <div class="col-6 text-center">
-                        <a href="https://waltontan.github.io/Web-Design-Challenge/latvstemp"><img src="https://github.com/Waltontan/Web-Design-Challenge/blob/main/Resources/lvt.png?raw=true" alt="Latitude vs temperature" class="d-inline-block align-text-top img-fluid"></a>
-                    </div>
-                    <div class="col-6 text-center">
-                        <a href="https://waltontan.github.io/Web-Design-Challenge/latvshum"><img src="https://github.com/Waltontan/Web-Design-Challenge/blob/main/Resources/hum.png?raw=true" alt="Latitude vs temperature" class="d-inline-block align-text-top img-fluid"></a>
-                    </div>
+            <div class="col-1"></div>
+            <div class="col-10 bg-light m-3 px-5">
+                <div class="row"> 
+                    <h1> Data</h1>
+                    <hr>
+                    The following table includes all of the data used for plotting during this project. 
+                    <br>
+                     
+                    <br>
                 </div>
                 <div class="row">
-                    <div class="col-6 text-center">
-                        <a href="https://waltontan.github.io/Web-Design-Challenge/latvscloud"><img src="https://github.com/Waltontan/Web-Design-Challenge/blob/main/Resources/cloud.png?raw=true" alt="Latitude vs temperature" class="d-inline-block align-text-top img-fluid"></a>
-                    </div>
-                    <div class="col-6 text-center">
-                        <a href="https://waltontan.github.io/Web-Design-Challenge/latvswindspeed"><img src="https://github.com/Waltontan/Web-Design-Challenge/blob/main/Resources/windspeed.png?raw=true" alt="Latitude vs temperature" class="d-inline-block align-text-top img-fluid"></a>
-                    </div>
+                    Insert Table here!!
                 </div>
             </div>
         </div>

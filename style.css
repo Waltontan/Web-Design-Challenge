@@ -3,30 +3,28 @@
     color:white;
 
 }
-
-.temp{
-    text-align: left;
-}
-
-.bgblue{
-    background-color: lightskyblue;
-
-}
-
-.bgpink{
-    background-color: pink;
-}
 H1{
     color:lightseagreen;
-    font-size: calc(100% + 1vw + 1vh);
+    font-size: calc(100% + 2vw );
     
 }
-
-.bsc-style{
+H3{
+    color:lightseagreen;
+    font-size: calc(90% + 1vw );
+}
+.nav-bar-bg{
     background-color: white;
 }
 
-.text-responsive {
-    font-size: calc(100% + 1vw + 1vh);
+.bodycol{
+    background-color: lightgray;
 }
 
+@media (max-width: 992px) {
+    .nav-bar-bg{
+        background-color: lightseagreen;
+    }
+    .bodycol{
+        background-color: white;
+    }
+}
