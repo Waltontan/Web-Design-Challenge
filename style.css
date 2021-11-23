@@ -20,6 +20,14 @@ H3{
     background-color: lightgray;
 }
 
+.imgwidth{
+    width: calc(100% + 1vw);
+}
+.table-wrapper {
+    max-height:60vh;
+    overflow: auto;
+  }
+
 @media (max-width: 992px) {
     .nav-bar-bg{
         background-color: lightseagreen;
