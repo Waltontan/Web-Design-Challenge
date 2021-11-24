@@ -61,7 +61,7 @@
                     <br>
                 </div>
 
-                <div class = "table-responsive table-wrapper" id="weather_table">
+                <div class = "table-responsive table-wrapper" id="weather_table" style="font-size: 14px";">
                 </div>
 
             </div>
@@ -82,7 +82,7 @@
      success:function(data)
      {
       var weather_data = data.split(/\r?\n|\r/);
-      var table_data = '<table class="table">';
+      var table_data = '<table class="table table-sm small table-striped">';
       for(var count = 0; count<weather_data.length; count++)
       {
        var cell_data = weather_data[count].split(",");
